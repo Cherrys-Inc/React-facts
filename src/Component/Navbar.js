@@ -4,25 +4,25 @@ import "./style.css";
 
 export default function Navbar(props){
     return(
-        <div className="container-fluid">
+        <div className = "container-fluid">
             
-            <nav  className={props.darkMode ? "dark": ""}>
+            <nav  className = {props.darkMode ? "dark": ""}>
             
                 
-                <img src={logo} className="reatlogo" ></img>
+                <img src = {logo} className = "reatlogo" ></img>
                 
-                    <div className="navtext">
+                    <div className = "navtext">
                         React Course - Project 1
                     </div>
-                <div className="tog" >
-                    <p className="toglight">Light</p>
-                    <div className="togslider"
-                    onClick={props.toggleDarkMode} >
-                        <div className="togcircle">
+                <div className = "tog" >
+                    <p className = "toglight">Light</p>
+                    <div className = "togslider"
+                    onClick = {props.toggleDarkMode} >
+                        <div className = "togcircle">
 
                         </div>
                     </div>
-                    <p className="togdark">Dark</p>
+                    <p className = "togdark">Dark</p>
                 </div>
 
             
